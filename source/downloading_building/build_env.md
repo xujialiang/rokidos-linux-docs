@@ -51,7 +51,14 @@ docker pull siokagami/rokidos-linux-make:v0.3.0
 ```
  docker run -it siokagami/rokidos-linux-make:v0.3.0
 ```
-
+进入容器中，执行编译指令
+```
+docker exec -it rokidosmake /bin/bash
+cd /home/rokidos
+source rokid_br_external/build/setenv.sh
+lunch
+```
+根据硬件选择编译环境。具体见编译章节。
 
 
 ### 配置USB使用权限
