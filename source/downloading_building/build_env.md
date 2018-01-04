@@ -49,7 +49,7 @@ docker pull siokagami/rokidos-linux-make:v0.3.0
 ### 在容器中运行Docker镜像
 
 ```
- docker run -it siokagami/rokidos-linux-make:v0.3.0 -v {宿主中代码路劲}:/home/rokidos
+ docker run -it siokagami/rokidos-linux-make:v0.3.0 -v {宿主中代码路径}:/home/rokidos
 ```
 进入容器中，执行编译指令
 ```
